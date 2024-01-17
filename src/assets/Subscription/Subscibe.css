@@ -1,0 +1,155 @@
+.subscribe {
+    width: 100%;
+}
+
+.subscribe_box {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem .2rem;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    align-items: center;
+
+}
+
+.subscribe_box_left h2 {
+    font-size: 3rem;
+    line-height: 0;
+}
+
+.subscribe_box p{
+    font-size: 1rem;
+}
+
+.subscribe_box_left_box {
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+    margin-top: 1.5rem;
+}
+
+.subscribe_box_left_box small{
+    font-size: .8rem;
+    font-weight: 700;
+}
+
+.All-news {
+    font-size: .8rem;
+    font-weight: 700;
+}
+
+.subscribe_box_left_box span{
+    background-color: rgb(105, 102, 102);
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+    width: 4rem;
+    text-align: center;
+}
+
+.subscribe_box_left_input{
+    margin-top: 3rem;
+    padding: 1rem;
+    width: 90%;
+    border-radius: 4rem;
+    background-color: rgb(66, 64, 64);
+    color: rgb(236, 227, 227);
+    display: flex;
+    align-items: center;
+
+}
+
+.subscribe_box_left_input input{
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    width: 90%;
+}
+
+.subscribe_box_left_input input::placeholder{
+    color: rgb(217, 214, 214);
+    font-size: 1.2rem;
+}
+
+.subscribe_box_left_input_icon{
+    font-size: 2rem;
+}
+
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+   
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content option {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content option:hover {
+    background-color: #939090;
+  }
+  
+
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+    
+    .subscribe_box {
+        width: 90%;
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+    .subscribe_box_left_input{
+        width: 100%;
+        padding: 1rem;
+    }
+    .subscribe_box_left h2{
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .subscribe_box {
+        width: 90%;
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+    .subscribe_box_left_input{
+        width: 100%;
+        padding: 1rem;
+    }
+    .subscribe_box_left h2{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    
+    .subscribe_box {
+        width: 90%;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4rem;
+    }
+    .subscribe_box_left_input{
+        width: 100%;
+        padding: 1rem;
+    }
+    .subscribe_box_left h2{
+        font-size: 2rem;
+    }
+}

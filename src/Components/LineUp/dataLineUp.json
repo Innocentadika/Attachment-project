@@ -1,0 +1,74 @@
+[
+    {
+        "status": "ok",
+        "totalResult": 38,
+        "articles": [
+
+            {
+                "source": {
+                    "id": "Robotics",
+                    "name": "Robotics"
+                },
+                "author": "Innocent Mukovwa",
+                "title": "How our team for robotics work to ensure quality work",
+                "picture": "",
+                "picDescription": "",
+                "description": "what was said about the topic on robotics",
+                "image": "",
+                "content": "",
+                "video": "",
+                "caption": ""
+            },
+
+            {
+                "source": {
+                    "id": "Robotics",
+                    "name": "Robotics"
+                },
+                "author": "Innocent Mukovwa",
+                "title": "How our team for robotics work to ensure quality work",
+                "picture": "",
+                "picDescription": "",
+                "description": "what was said about the topic on robotics",
+                "image": "",
+                "content": "",
+                "video": "",
+                "caption": ""
+            },
+
+            {
+                "source": {
+                    "id": "Robotics",
+                    "name": "Robotics"
+                },
+                "author": "Innocent Mukovwa",
+                "title": "How our team for robotics work to ensure quality work",
+                "picture": "",
+                "picDescription": "",
+                "description": "what was said about the topic on robotics",
+                "image": "",
+                "content": "",
+                "video": "",
+                "caption": ""
+            },
+            
+            {
+                "source": {
+                    "id": "Robotics",
+                    "name": "Robotics"
+                },
+                "author": "Innocent Mukovwa",
+                "title": "How our team for robotics work to ensure quality work",
+                "picture": "",
+                "picDescription": "",
+                "description": "what was said about the topic on robotics",
+                "image": "",
+                "content": "",
+                "video": "",
+                "caption": ""
+            }
+
+        ]
+
+    }
+]
